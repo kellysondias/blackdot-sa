@@ -1,32 +1,32 @@
 
-.header .container {
+.header .aboutsection {
     display:flex;
     flex-flow: row wrap;
     justify-content: space-between;
     margin: 90px 0 130px 0;
 }
 
-.header .container p {
+.header .aboutsection p {
     margin-top: 15px;
     line-height: 32px;
 }
 
-.header .container img {
+.header .aboutsection img {
     margin-top: 30px;
     margin-right: 7%;
 }
 
-.header .container .column {
+.header .aboutsection .column {
     display: flex;
     flex-flow: column wrap;
 }
 
-.header .container .about {
+.header .aboutsection .about {
     padding-top: 70px;
     padding-left: 7%;
 }
 
-.header .container .button {
+.header .aboutsection .button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,8 +37,8 @@
     background-color: #6C63FF;
 }
 
-.header .container .button p {
-    margin: 0 auto;
+.header .aboutsection .button p {
+    margin: 50%;
     color: var(--white);
     font-weight: var(--bold-weight);
     font-size: 20px;
@@ -46,11 +46,11 @@
 
 @media (max-width: 1170px){
 
-    .header .container img {
+    .header .aboutsection img {
         margin-left: 33px;
     }
 
-    .header .container .about {
+    .header .aboutsection .about {
         padding-top: 0;
         padding-left: 20px;
     }
@@ -58,14 +58,14 @@
 
 @media (max-width: 700px){
 
-    .header .container img {
+    .header .aboutsection img {
         max-width: 500px;
     }
 }
 
 @media (max-width: 400px){
 
-    .header .container img {
+    .header .aboutsection img {
         max-width: 350px;
     }
 }
