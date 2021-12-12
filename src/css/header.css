@@ -46,6 +46,11 @@
 
 @media (max-width: 1170px){
 
+    .header .aboutsection {
+        justify-content: center;
+        align-content: center;
+    }
+
     .header .aboutsection img {
         margin-left: 30px;
     }

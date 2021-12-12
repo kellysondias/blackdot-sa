@@ -31,6 +31,10 @@
 }
 
 @media (max-width: 1235px) {
+    .projects {
+        width: 100%;
+    }
+
     .projects .cards {
         padding: 75px 0 75px 0;
     }
