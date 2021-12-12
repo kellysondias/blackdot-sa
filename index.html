@@ -33,7 +33,7 @@
 
 <body>
 
-    <header class="header">
+    <!-- <header class="header">
         <div class="aboutsection">
             <div class="column about">
                 <h1>Lorem ipsum dolor sit amet</h1>
@@ -85,7 +85,7 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <footer class="forms">
 
@@ -95,7 +95,11 @@
 
             <input type="text" name="form" id="e-mail" placeholder="E-mail">
 
-            <input type="text" name="form" id="telephone" placeholder="Telefone">
+            <input type="tel" name="form" id="telNo" placeholder="Telefone" list="default-tels">
+
+            <datalist id="default-tels">
+                <option value="(43) 9 9970-2430"></option>
+            </datalist>
 
             <textarea name="form" id="message" placeholder="Mensagem..." cols="30" rows="10"></textarea>
 
@@ -103,5 +107,4 @@
         </form>
     </footer>
 </body>
-
 </html>
