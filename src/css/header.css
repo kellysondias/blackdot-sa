@@ -75,6 +75,14 @@
     }
 }
 
+@media (max-width: 400px){
+
+    .header .aboutsection img {
+        width: 360px;
+    }
+}
+
+
 
 /* PROVISORIO */
 
