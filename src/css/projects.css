@@ -30,12 +30,6 @@
     margin-top: 24px;
 }
 
-@media (max-width: 400px) {
-    .projects {
-        width: 500px;
-    }
-}
-
 @media (max-width: 1235px) {
     .projects .cards {
         padding: 75px 0 75px 0;
