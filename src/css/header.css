@@ -53,31 +53,11 @@
 
     .header .aboutsection img {
         margin-left: 30px;
+        width: 80%;
     }
 
     .header .aboutsection .about {
         padding-top: 0;
         padding-left: 20px;
-    }
-}
-
-@media (max-width: 700px){
-
-    .header .aboutsection img {
-        max-width: 500px;
-    }
-}
-
-@media (max-width: 500px){
-
-    .header .aboutsection img {
-        width: 400px;
-    }
-}
-
-@media (max-width: 400px){
-
-    .header .aboutsection img {
-        width: 80%;
     }
 }
