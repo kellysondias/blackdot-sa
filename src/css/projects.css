@@ -1,5 +1,6 @@
 .projects {
     background-color: var(--white300);
+    width: 100%;
 }
 
 .projects .cards {
@@ -30,12 +31,15 @@
     margin-top: 24px;
 }
 
-@media (max-width: 823px) {
-    .projects .cards .card:nth-child(-n+5) {
-        margin-bottom: 30px;
-    }
+@media (max-width: 1235px) {
 
     .projects .cards {
         padding: 75px 0 75px 0;
     }
+
+    .projects .cards .card:nth-child(3n),
+    .projects .cards .card:nth-child(-n+5) {
+        margin-bottom: 30px;
+    }
+
 }
