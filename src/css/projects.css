@@ -1,5 +1,6 @@
 .projects {
     background-color: var(--white300);
+    max-width: 100%;
 }
 
 .projects .deck {
@@ -21,22 +22,20 @@
 .projects .deck .card .text {
     display: flex;
     flex-flow: column nowrap;
-    max-width: 220px;
+    width: 311px;
 }
 
 .projects .deck .card h2 {
-   max-width: 180px;
-}
-
-.projects .deck .card p {
-    margin-left: 33px;
+    /* background-color: rgba(0, 197, 197, 0.541); */
+   padding-right: 100px;
 }
 
 .projects .deck .card h2,
 .projects .deck .card p {
-    width: 311px;
+    flex-shrink: 3;
+    max-width: 100%;
     margin-top: 24px;
-    margin-left: 33px;
+    padding-left: 33px;
 }
 
 @media (max-width: 1235px) {
@@ -51,6 +50,40 @@
     .projects .deck .card:nth-child(3n),
     .projects .deck .card:nth-child(-n+5) {
         margin-bottom: 30px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .projects .deck .card h2,
+    .projects .deck .card p {
+        position: relative;
+        text-align: center;
+        max-width: 100%;
+        margin-top: 24px;
+        left: 0;
+    }
+
+    .projects .deck .card h2 {
+       padding-right: 0;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .projects .deck .card {
+        max-width: 85%;
+        max-height: 300px;
+    }
+
+
+    .projects .deck .card h2,
+    .projects .deck .card p {
+        
+        text-align: center;
+        font-size: 50%;
+        margin-top: 24px;
+        padding-right: 20%;
     }
 
 }

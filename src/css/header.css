@@ -61,3 +61,10 @@
         padding-left: 20px;
     }
 }
+
+@media (max-width: 400px) {
+
+    .header .aboutsection .about p {
+        max-width: 70%;
+    }
+}

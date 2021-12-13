@@ -6,6 +6,7 @@
 
 html {
     background-color: var(--bgSite);
+    max-width: 1440px;
 }
 
 body {

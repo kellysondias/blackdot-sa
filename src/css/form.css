@@ -58,3 +58,26 @@
     color: var(--white);
     font-weight: var(--bold-weight);
 }
+
+@media (max-width: 400px) {
+    .forms h3 {
+        padding-top: 5%;
+    }
+
+    .forms h3,
+    .forms .form {
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .forms .form input,
+    .forms .form textarea,
+    .forms .form input:last-child {
+        max-width: 95%;
+    }
+
+    .forms .form input:last-child {
+        font-size: 80%;
+        max-width: 90%;
+    }
+}
