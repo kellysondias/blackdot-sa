@@ -22,7 +22,7 @@
 .projects .deck .card .text {
     display: flex;
     flex-flow: column nowrap;
-    width: 311px;
+    max-width: 311px;
 }
 
 .projects .deck .card h2 {

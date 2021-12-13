@@ -62,6 +62,7 @@
 @media (max-width: 400px) {
     .forms h3 {
         padding-top: 5%;
+        font-size: 25px;
     }
 
     .forms h3,
