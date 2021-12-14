@@ -6,9 +6,13 @@
     margin: 90px 0 130px 0;
 }
 
-.header .aboutsection p {
-    margin-top: 15px;
+.header .aboutsection .about p:nth-child(2n) {
     line-height: 32px;
+    margin-top: 15px;
+}
+
+.header .aboutsection .about p:last-child {
+    margin: 0 auto;
 }
 
 .header .aboutsection img {
