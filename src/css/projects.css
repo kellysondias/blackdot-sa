@@ -13,6 +13,9 @@
 }
 
 .projects .deck .card {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
     margin: 0 20px 68px 20px;
     height: 395px;
     background-color: var(--white);
@@ -25,17 +28,18 @@
     max-width: 311px;
 }
 
-.projects .deck .card h2 {
-    /* background-color: rgba(0, 197, 197, 0.541); */
-   padding-right: 100px;
-}
-
 .projects .deck .card h2,
 .projects .deck .card p {
-    flex-shrink: 3;
-    max-width: 100%;
-    margin-top: 24px;
-    padding-left: 33px;
+    width: 100%;
+    margin: 24px auto 0 auto;
+    /* padding-left: 33px; */
+    
+}
+
+.projects .deck .card p {
+    max-width: 250px;
+    position: relative;
+    left: 6%;
 }
 
 @media (max-width: 1235px) {
@@ -69,6 +73,21 @@
     }
 }
 
+@media (max-width: 375px) {
+    .projects .deck .card h2,
+    .projects .deck .card p {
+        margin: 24px auto 0 auto;
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 375px) {
+    .projects .deck .card h2,
+    .projects .deck .card p {
+        padding-left: 0;
+    }
+}
+
 @media (max-width: 320px) {
 
     .projects .deck .card {
@@ -79,11 +98,9 @@
 
     .projects .deck .card h2,
     .projects .deck .card p {
-        
         text-align: center;
         font-size: 50%;
-        margin-top: 24px;
-        padding-right: 20%;
+        margin: 24px auto 0 auto;
     }
 
 }
