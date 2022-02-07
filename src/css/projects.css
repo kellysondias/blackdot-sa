@@ -31,9 +31,7 @@
 .projects .deck .card h2,
 .projects .deck .card p {
     width: 100%;
-    margin: 24px auto 0 auto;
-    /* padding-left: 33px; */
-    
+    margin: 24px auto 0 auto;    
 }
 
 .projects .deck .card p {
@@ -66,6 +64,7 @@
         max-width: 100%;
         margin-top: 24px;
         left: 0;
+        width: 70%;
     }
 
     .projects .deck .card h2 {
@@ -77,13 +76,6 @@
     .projects .deck .card h2,
     .projects .deck .card p {
         margin: 24px auto 0 auto;
-        padding-left: 5%;
-    }
-}
-
-@media (max-width: 375px) {
-    .projects .deck .card h2,
-    .projects .deck .card p {
         padding-left: 0;
     }
 }
